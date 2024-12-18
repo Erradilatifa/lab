@@ -1,0 +1,144 @@
+       
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .top-bar {
+            background-color: #f5f9ff;
+            color: #333;
+            font-size: 14px;
+            
+        }
+        .nav-link {
+            color: white !important;
+        }
+        .navbar-nav .nav-item:hover .nav-link {
+            color: #f6c201 !important;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+           height:70px;
+           
+        }
+        .highlight {
+            background-color: #f6c201;
+            color: #fff !important;
+        }
+        .login-btn {
+            background-color: #19335c;
+            color: #fff;
+        }
+        .login-btn:hover {
+            color: #f6c201;
+        }
+
+.content {
+    min-height: calc(100vh - 60px); /* Ajuste la hauteur pour le footer */
+
+}
+.imm {
+    height:500px; /* Hauteur personnalisée */
+    width: 500px;
+  }
+  
+      /* Personnalisation des cartes */
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 200px; /* Hauteur fixe pour les images */
+    object-fit: cover; /* Garantit que l'image s'adapte bien */
+}
+
+.text-primary {
+    font-size: 2rem; /* Taille du titre */
+}
+footer {
+    background-color: #f4f4f4; /* Couleur de fond */
+    color: #333; /* Couleur du texte */
+}
+    /* Suppression des bordures et styles par défaut */
+    .custom-list {
+        list-style: none; /* Supprime les puces */
+        padding: 0; /* Enlève les marges internes */
+        margin: 0; /* Enlève les marges externes */
+    }
+    .custom-list li {
+        margin: 5px 0; /* Espacement vertical entre les éléments */
+    }
+    .custom-list a {
+        text-decoration: none; /* Supprime le soulignement des liens */
+        color: black; /* Couleur du texte */
+        
+    }
+footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+/* Ajuste la hauteur minimale de la navigation */
+footer .navbar {
+    min-height: 60px;
+}
+
+/* Ajuste l'espacement du top bar */
+footer .top-bar div {
+    line-height: 1.5;
+}
+
+
+footer p, footer li {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer a:hover {
+    color: #6aacf3; /* Couleur au survol */
+}
+
+  
+.bg-light {
+    background-color: #f8f9fa; /* Fond léger */
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  }
+  
+  .text-success {
+    color: #6aacf3 !important; /* Couleur verte pour les titres et accents */
+  }
+  
+  .btn-success {
+    background-color:#6aacf3;
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #007bff; /* Effet survol bouton */
+  }
+  
+  form label {
+    font-weight: 600; /* Épaissir les labels */
+  }
+  
+  form .form-control,
+  form .form-select {
+    border-radius: 0.25rem; /* Coins légèrement arrondis */
+  }
+  
+form .form-check-input:checked {
+    background-color: #007bff;
+    border-color: #007bff; /* Customisation de la checkbox */
+  }
+
